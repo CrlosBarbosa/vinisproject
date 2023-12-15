@@ -3,31 +3,86 @@
     padding: 0px;
 }
 
+/*Irei inserir as mediasqueryes aqui mesmo */
+
+@media only screen and (max-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .banner img{
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+}
+
 body{
+    margin: 0;
     background-color:#000022 ;
     color: #fff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    padding: 10px; /* Reduzir o espaçamento do menu */
+    font-size: 16px; /* Tamanho da fonte menor para o menu */
+    text-align: right; /* alinhamento do cabeçalho */
+    flex: 1; /* Ocupar o espaço disponível restante */
+    margin-top: 35px; /* Espaço superior para separar da imagem */
+    font-family: 'Bricolage Grotesque', sans-serif;    
+}
+#menu a{
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 h1{
-    text-align: center;
-    padding: 35px;
+    text-align: left;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 main{
     padding: 20px;
     border-radius: 10px;
-    width: 1200px;
     margin: auto;
-    text-align: center;
     display: flex;
+    text-align: center;
 }
 
 img{
     max-width: 100%;
-    display: block;
     margin-bottom: 20px;
 }
+img#banner{
+    width: 100%;
+    left: -50;
+    right: -50;
+
+}
+div#banner{
+    display: block;
+    width: 150%;
+    padding-top: 110px;
+}
+
 
 .conteudo{
     margin-top: 25px;
@@ -59,4 +114,25 @@ color: white;
 text-align: center;
 padding: 25px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+#instagram{
+    width: 35px;
+    margin-left: 4px;
+    display: block;
 }

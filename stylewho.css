@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+}
+
+main{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin: 0 auto;
+
+    font-family:'Courier New', Courier, monospace
+}
+main p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+img{
+    width: 500px;
+}
+
+.cores {
+    background: linear-gradient(to right,
+       rgb(137, 26, 165) 20%,
+       rgb(137, 26, 165) 20%, rgb(137, 26, 165) 40%,
+       rgb(137, 26, 165) 40%, rgba(255, 0, 0, 0.747) 60%,
+       rgb(137, 26, 165) 60%, rgb(137, 26, 165) 80%,
+       rgb(137, 26, 165) 80%
+     );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+     font-weight: 900;
+     font-family: Arial;
+ }
